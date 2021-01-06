@@ -2,17 +2,17 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Wining : MonoBehaviour
+public class Win1_Gen : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
     {
-        StartCoroutine(GameOver);
+        
     }
 
-    IEnumerator GameOver()
+    // Update is called once per frame
+    void Update()
     {
-        yield return new WaitForSeconds(3);
-        SceneManager.LoadScene("Lose1")
+        
     }
 }
